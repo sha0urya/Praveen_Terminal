@@ -1,9 +1,9 @@
 # Terminal Portfolio Website by Praveen Kumar
 
-![Terminal Portfolio Website by Praveen kumar]
+##Terminal Portfolio Website by Praveen Kumar.
 
 
-This portfolio website in terminal version developed with React, TypeScript and Styled-Components. Multiple themes supported and keyboard shortcuts can be used for some functionalities.
+This portfolio website is in a terminal version developed with React, TypeScript and Styled-Components. Multiple themes are supported and keyboard shortcuts can be used for some functionalities.
 
 Blog Post: 
 
