@@ -41,7 +41,7 @@ const Welcome: React.FC = () => {
         <Seperator>----</Seperator>
         <div>
           This project's source code can be found in this project's{" "}
-          <Link href="">
+          <Link href="https://github.com/sha0urya/Praveen_Terminal">
             GitHub repo
           </Link>
           .
