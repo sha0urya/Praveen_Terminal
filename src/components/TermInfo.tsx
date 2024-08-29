@@ -5,9 +5,7 @@ const TermInfo = () => {
     <Wrapper>
       <User>[P-bash]</User>
       {/* @ */}
-      <WebsiteName>
-        
-        </WebsiteName>:~$
+      <WebsiteName></WebsiteName>:~$
     </Wrapper>
   );
 };

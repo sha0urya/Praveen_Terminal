@@ -8,17 +8,23 @@ const About: React.FC = () => {
   return (
     <AboutWrapper data-testid="about">
       <p>
-        Hi, my name is <HighlightSpan>Praveen Kumar</HighlightSpan>!
+        Hello! My name is <HighlightSpan>Praveen Kumar</HighlightSpan>.
       </p>
       <p>
-        I'm <HighlightAlt>a full-stack developer</HighlightAlt> based in Chapra, Bihar.
+        I am a <HighlightAlt>full-stack developer</HighlightAlt> based in
+        Chapra, Bihar.
       </p>
       <p>
-        Currently in <HighlightAlt>junior year at INDIAN INSTITUTE OF INFORMATION TECHNOLOGY AGARTALA</HighlightAlt> (IIIT-AGARTALA).
+        Currently, I am a{" "}
+        <HighlightAlt>
+          senior at the Indian Institute of Information Technology, Agartala
+          (IIIT-Agartala)
+        </HighlightAlt>
+        .
       </p>
       <p>
-        I am passionate about writing codes and <br />
-        developing web applications to solve real-life challenges.
+        I am passionate about coding and developing web applications to tackle
+        real-world challenges.
       </p>
     </AboutWrapper>
   );

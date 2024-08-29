@@ -27,7 +27,7 @@ const Socials: React.FC = () => {
 
   /* ===== check arg is valid ===== */
   const checkArg = () =>
-    isArgInvalid(arg, "go", ["1", "2", "3", "4"]) ? (
+    isArgInvalid(arg, "go", ["1", "2", "3", "4", "5", "6", "7"]) ? (
       <Usage cmd="socials" />
     ) : null;
 
@@ -53,25 +53,43 @@ const socials = [
     id: 1,
     title: "GitHub",
     url: "https://github.com/sha0urya",
-    tab: 3,
+    tab: 12,
   },
   {
     id: 2,
-    title: "LinkedIn",
-    url: "https://www.linkedin.com/in/sha0urya/",
-    tab: 3,
+    title: "Leetcode",
+    url: "https://leetcode.com/u/praveenkr21uics/",
+    tab: 10,
   },
   {
     id: 3,
-    title: "Twitter",
-    url: "https://twitter.com/sha0urya2",
-    tab: 1,
+    title: "CodeChef",
+    url: "https://www.codechef.com/users/star5r",
+    tab: 10,
   },
   {
     id: 4,
+    title: "One-on-One Meeting",
+    url: "https://calendly.com/singhsatyam312005/30min",
+    tab: 0,
+  },
+  {
+    id: 5,
+    title: "LinkedIn",
+    url: "https://www.linkedin.com/in/sha0urya/",
+    tab: 10,
+  },
+  {
+    id: 6,
+    title: "Twitter",
+    url: "https://twitter.com/sha0urya2",
+    tab: 11,
+  },
+  {
+    id: 7,
     title: "Instagram",
     url: "https://instagram.com/sha0urya",
-    tab: 0,
+    tab: 9,
   },
 ];
 
