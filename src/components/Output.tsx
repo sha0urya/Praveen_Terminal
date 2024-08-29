@@ -10,10 +10,14 @@ import Welcome from "./commands/Welcome";
 import History from "./commands/History";
 import Projects from "./commands/Projects";
 import Socials from "./commands/Socials";
+import Experience from "./commands/Experience";
 import Themes from "./commands/Themes";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
+import Skills from "./commands/Skills";
+import Positions from "./commands/Positions";
+import Achievements from "./commands/Achievements";
 
 type Props = {
   index: number;
@@ -38,16 +42,24 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           clear: <Clear />,
           echo: <Echo />,
           education: <Education />,
+          experience: <Experience />,
+          skills: <Skills />,
           email: <Email />,
           gui: <Gui />,
           help: <Help />,
           history: <History />,
           projects: <Projects />,
+          positions: <Positions />,
+          achievements: <Achievements />,
           pwd: <GeneralOutput>/home/praveen</GeneralOutput>,
           socials: <Socials />,
           themes: <Themes />,
           welcome: <Welcome />,
-          whoami: <GeneralOutput>How could i know.. I am only developer not a hacker 😎</GeneralOutput>,
+          whoami: (
+            <GeneralOutput>
+              How could i know.. I am only developer not a hacker 😎
+            </GeneralOutput>
+          ),
         }[cmd]
       }
     </OutputContainer>

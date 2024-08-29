@@ -13,7 +13,7 @@ const Help: React.FC = () => {
     <HelpWrapper data-testid="help">
       {commands.map(({ cmd, desc, tab }) => (
         <CmdList key={cmd}>
-          <Cmd>{cmd}</Cmd> 
+          <Cmd>{cmd}</Cmd>
           {generateTabs(tab)}
           <CmdDesc>- {desc}</CmdDesc>
         </CmdList>
