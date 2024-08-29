@@ -30,7 +30,7 @@ const skillsData = [
     items: [
       "Data Structures",
       "Algorithms",
-      "DBMS (Database Management Systems)",
+      "DBMS (Database Management System)",
       "OOP (Object-Oriented Programming)",
       "Operating Systems",
       "System Design",
