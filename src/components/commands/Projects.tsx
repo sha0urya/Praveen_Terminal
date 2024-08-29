@@ -68,7 +68,7 @@ const projects = [
     id: 3,
     title: "Praveen Newsletter",
     desc: "My personal newsletter",
-    url: "https://sha0urya-newsletter.vercel.app/",
+    url: "",
   },
 ];
 
