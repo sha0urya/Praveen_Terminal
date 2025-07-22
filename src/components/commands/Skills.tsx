@@ -23,16 +23,16 @@ const Skills: React.FC = () => {
 const skillsData = [
   {
     category: "Languages",
-    items: ["C", "C++", "SQL", "JavaScript", "TypeScript"],
+    items: ["C", "C++", "Golang", "SQL", "JavaScript", "TypeScript", "Python"],
   },
   {
     category: "Computer Science Fundamentals",
     items: [
-      "Data Structures",
-      "Algorithms",
-      "DBMS (Database Management System)",
-      "OOP (Object-Oriented Programming)",
+      "Data Structures & Algorithms",
+      "DBMS",
+      "OOPs",
       "Operating Systems",
+      "Computer Networks",
       "System Design",
     ],
   },
@@ -41,12 +41,17 @@ const skillsData = [
     items: [
       "Git",
       "GitHub",
+      "GitLab",
+      "Bitbucket",
+      "VS Code",
       "MySQL Workbench",
       "XAMPP",
-      "VS Code",
-      "AWS",
-      "MS Office",
-      "Canva",
+      "Makefile",
+      "Docker",
+      "Kubernetes",
+      "OpenSearch",
+      "Kibana",
+      "Grafana",
     ],
   },
   {
@@ -54,12 +59,13 @@ const skillsData = [
     items: [
       "HTML",
       "CSS",
-      "Bootstrap",
+      "Firebase",
       "Node.js",
       "Express.js",
       "MongoDB",
       "React.js",
       "Next.js",
+      "Nest.js",
     ],
   },
 ];
